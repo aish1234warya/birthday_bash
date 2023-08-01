@@ -1,0 +1,52 @@
+.heading{
+  color: aqua;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+div{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: top -30px;
+}
+
+body{
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+h1{
+  padding: 10px 20px;
+  background-color:aquamarine;
+  border-radius: 20px;
+  color:chocolate
+}
+.headingStyle {
+  padding :30px;
+  text-align :center;
+  font-family:'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: antiquewhite;
+  margin-bottom: 30px ;
+  font-size: 1.5rem;
+  background-color:#fff;
+}
+
+button{
+  padding: 15px 20px;
+  background: #9b59b6;
+  color:white;
+  border: 2px solid #ecf0f1;
+  outline:none;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+}

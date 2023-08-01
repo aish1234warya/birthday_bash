@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.greet {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.bgImage {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.greet h1 {
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  border: 1px solid #000000;
+  transition: 0.3s;
+  z-index: 100;
+}
+
+.balloons {
+  height: 50%;
+  position: absolute;
+  z-index: 2;
+  transform: translateY(200%);
+  transition: 0.5s;
+}
+
+.greet h1:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.greet:hover .balloons {
+  transform: translateY(0%);
+  transition: 0.5s;
+}
+
+
